@@ -1,22 +1,4 @@
-@font-face {
-    font-family: 'Caveat';
-    src: url('fonts/Caveat-SemiBold.ttf') format('ttf')
-  }
-
-body {
-    background-color:#FCEF90;
-}
-
-h1 {
-    font-family: 'Caveat';
-    font-size: 100px;
-}
-
-.topBar {
-    margin: auto;
-    width: 100%;
-    display:flex;
-    align-items: center;
+@import "_fonts", "_topbar.scss", "_globals.scss";
 
 
-}
+

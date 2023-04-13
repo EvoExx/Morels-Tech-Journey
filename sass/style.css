@@ -1,19 +1,54 @@
 @font-face {
   font-family: "Caveat";
-  src: url("fonts/Caveat-SemiBold.ttf") format("ttf");
+  src: url("../fonts/Caveat-SemiBold.ttf");
 }
-body {
-  background-color: #FCEF90;
+@font-face {
+  font-family: "PTSerif";
+  src: url("../PTSerif-Regular.ttf");
+}
+.topBar {
+  width: 100%;
+  padding-bottom: 0.5rem;
+}
+
+.topBarUL li {
+  display: inline-flex;
+  margin-right: 3rem;
+}
+
+.topBarUL ul:last-child {
+  margin-right: 0;
 }
 
 h1 {
   font-family: "Caveat";
-  font-size: 100px;
+  font-size: 1.5rem;
 }
 
-.topBar {
-  margin: auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
+.topBar ul li a {
+  color: black;
+}
+.topBar ul li a:visited {
+  color: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body, html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FCEF90;
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
 }/*# sourceMappingURL=style.css.map */

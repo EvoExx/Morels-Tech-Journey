@@ -1,0 +1,25 @@
+.topBar {
+    width: 100%;
+    padding-bottom: 0.5rem;
+}
+
+.topBarUL li{
+    display:inline-flex;
+    margin-right: 3rem;
+}
+
+.topBarUL ul:last-child {
+    margin-right: 0;
+}
+
+h1 {
+    font-family: 'Caveat';
+    font-size: 1.5rem;
+}
+
+.topBar ul li a {
+    color: black;
+    &:visited {
+        color: none;
+    }
+}
