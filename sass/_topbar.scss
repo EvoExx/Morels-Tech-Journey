@@ -1,21 +1,23 @@
-.topBar {
-    width: 100%;
-    padding-bottom: 0.5rem;
+.topBar{
+    // display: inline-flex;
+    // justify-content: space-between;
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
 }
 
-.topBarUL li{
-    display:inline-flex;
-    margin-right: 3rem;
+.topBarUL{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
 }
 
 .topBarUL ul:last-child {
-    margin-right: 0;
+    // margin-right: 0;
 }
 
-h1 {
-    font-family: 'Caveat';
-    font-size: 1.5rem;
-}
 
 .topBar ul li a {
     color: black;

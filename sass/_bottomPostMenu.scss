@@ -1,0 +1,34 @@
+.bottomPostMenu a {
+    color: white;
+    font-family: 'PTSerif';
+    font-size: 1.3rem;
+    border: 2.5px solid black;
+    // border-radius: 2px;
+    &:visited {
+        color: none;
+    }
+}
+
+.bottomPostMenu {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+
+}
+
+.share {
+    padding: 5px 10px;
+    padding-top: 10px;
+}
+
+.readFullStory {
+    background-color: black;
+    padding: 15px 80px;
+    border-radius: none;
+
+}    
+
+.readFullStory a {
+    border-radius: none;
+}

@@ -6,23 +6,19 @@
   font-family: "PTSerif";
   src: url("../PTSerif-Regular.ttf");
 }
+@font-face {
+  font-family: "PTSerif-bi";
+  src: url("../PTSerif-BoldItalic.ttf");
+}
 .topBar {
-  width: 100%;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1.5rem;
+  padding-top: 0.5rem;
 }
 
-.topBarUL li {
-  display: inline-flex;
-  margin-right: 3rem;
-}
-
-.topBarUL ul:last-child {
-  margin-right: 0;
-}
-
-h1 {
-  font-family: "Caveat";
-  font-size: 1.5rem;
+.topBarUL {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .topBar ul li a {
@@ -51,4 +47,94 @@ body {
   width: 90%;
   margin: 0 auto;
   height: 100vh;
+}
+
+.chapter {
+  padding-left: 0.3rem;
+}
+
+.postTitle {
+  word-wrap: break-word;
+  width: 80%;
+  padding-bottom: 10px;
+}
+
+.postBody {
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.readLengthParent {
+  display: flex;
+  flex-direction: row;
+}
+
+h1, h2, h3, h4, p {
+  color: #0F0E0E;
+}
+
+h1 {
+  font-family: "Caveat";
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: regular;
+  font-size: 1rem;
+  letter-spacing: 10px;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8rem;
+}
+
+h4 {
+  font-family: "Caveat";
+  font-size: 2rem;
+  line-height: 30px;
+}
+
+.postBody {
+  font-family: "PTSerif";
+}
+
+.readLengthParent {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 10px;
+  padding-bottom: 1.5rem;
+}
+
+.bottomPostMenu a {
+  color: white;
+  font-family: "PTSerif";
+  font-size: 1.3rem;
+  border: 2.5px solid black;
+}
+.bottomPostMenu a:visited {
+  color: none;
+}
+
+.bottomPostMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.share {
+  padding: 5px 10px;
+  padding-top: 10px;
+}
+
+.readFullStory {
+  background-color: black;
+  padding: 15px 80px;
+  border-radius: none;
+}
+
+.readFullStory a {
+  border-radius: none;
 }/*# sourceMappingURL=style.css.map */
