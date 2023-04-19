@@ -51,6 +51,7 @@ body {
 
 .chapter {
   padding-left: 0.3rem;
+  margin-bottom: -1rem;
 }
 
 .postTitle {
@@ -60,7 +61,6 @@ body {
 }
 
 .postBody {
-  display: inline-block;
   padding-bottom: 15px;
 }
 
@@ -101,10 +101,10 @@ h4 {
 }
 
 .readLengthParent {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "PTSerif-bi";
   font-style: italic;
-  font-size: 10px;
-  padding-bottom: 1.5rem;
+  font-size: 12px;
+  padding-bottom: 15px;
 }
 
 .bottomPostMenu a {
@@ -124,6 +124,10 @@ h4 {
   padding-bottom: 2rem;
 }
 
+.date {
+  padding-right: 3px;
+}
+
 .share {
   padding: 5px 10px;
   padding-top: 10px;
@@ -137,4 +141,55 @@ h4 {
 
 .readFullStory a {
   border-radius: none;
+}
+
+.footer {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+h1, footer {
+  padding-bottom: 10px;
+}
+
+h6 {
+  font-family: "PTSerif";
+  font-size: 1rem;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer a {
+  font-family: "PTSerif";
+  color: black;
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.footer a:hover {
+  background-color: black;
+  color: white;
+}
+
+.rightSide {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.leftSide {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.thankyou {
+  font-size: 10px;
+  font-style: italic;
 }/*# sourceMappingURL=style.css.map */

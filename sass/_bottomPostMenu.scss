@@ -17,6 +17,10 @@
 
 }
 
+.date {
+    padding-right: 3px;
+}
+
 .share {
     padding: 5px 10px;
     padding-top: 10px;
@@ -27,7 +31,11 @@
     padding: 15px 80px;
     border-radius: none;
 
-}    
+}
+
+.readFullStory a:hover {
+
+}
 
 .readFullStory a {
     border-radius: none;
